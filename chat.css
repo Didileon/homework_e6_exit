@@ -1,0 +1,101 @@
+
+body{
+
+  background: #ddd;
+  font-family: sans-serif;
+  
+  }
+  
+   
+.text {
+    background: #eff1f4;
+    color: #0f0e0e;
+    font-family: sans-serif;
+  }
+  
+  .text:hover {
+    background: #2c3e50;
+    font-family: sans-serif;
+  }
+  
+  .text:active {
+    background: #2c3e50;
+    font-family: sans-serif;
+    top: 2px;
+  }
+  
+  .text:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+    font-family: sans-serif;
+  }
+
+  #start {
+    width: 83px;
+    left: 45px;
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+    
+  }
+
+  #exit {
+    width: 83px;
+    left: 45px;
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+  }
+
+  #refresh {
+    width: 300px;
+    left: 45px;
+    top: 84px;
+  }
+  
+  /*divs*/
+    .nick {
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    position: absolute;
+    color: #000;
+    border-radius: 6px;
+    font-family: sans-serif;
+    
+  }
+
+  .users {
+    color: #000;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  /*полоса прокрутки */
+  *::-webkit-scrollbar {
+    background-color: #0d1220;
+    width: 6px;
+  }
+
+ 
+  
+  .chat  {
+    width: 170px;
+    height: 45px;
+    border-right: 1px solid grey;
+    display: flex;
+    position: absolute;
+    color: #FFF;
+    border-radius: 6px;
+    background-color: #34495e;
+    border: 3px solid #2c3e50;
+    line-height: 42px;
+    font-family: sans-serif;
+  }
+  
+  
